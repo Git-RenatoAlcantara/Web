@@ -1,0 +1,149 @@
+.container{
+			width: 100vw;
+			height: 100vh;
+			background-image: url(../img/background-login.png);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;;
+			align-items: center;
+		}
+		.box{
+			width: 400px;
+			height: 380px;
+			background: transparent;
+
+
+		}
+		body{
+			margin: 0;
+		}
+		div#recovery a{
+			text-decoration: none;
+		}
+
+		/* ########### Login ########## */
+		.box-login{
+			float: left;
+		
+		}
+		.box-login input[type="text"]{
+			width: 295px;
+			height:48px;
+			border: 1px solid #fff;
+			background: transparent;
+			color: #fff;
+			padding-left: 5px;
+
+		}
+		.box-login input[type="password"]{
+			width: 295px;
+			height:48px;
+			border: 1px solid #fff;
+			background: transparent;
+			margin-top: 5px;
+			color: #fff;
+			padding-left: 5px;
+
+		}
+		.box-login button{
+			width: 303px;
+			height:48px;
+			border: 1px solid #14f5fb;
+			background: #082e2f;
+			margin-top: 5px;
+			cursor: pointer;
+
+		}
+	
+		.box-login button:hover{
+			background: #14f5fb;
+		}
+		div.div-login{
+			width: 140px;
+			height:48px;
+			border: 1px solid #14f5fb;
+			background: #082e2f;
+			margin-bottom: 5px;
+			cursor: pointer;
+			float: left;
+			text-align: center;
+
+
+		}
+		div.div-cadastrar{
+			width: 153px;
+			height:48px;
+			border: 1px solid #14f5fb;
+			background: #082e2f;
+			margin-bottom: 5px;
+			text-align: center;
+			cursor: pointer;
+			float: left;
+			margin-left: 5px;
+
+
+		}
+		.box-login p{
+			text-align: center;
+			vertical-align:middle;
+		}
+		/* ############## CADASTRAR ############# */
+		div.div-cadastrar:hover{
+			background: #0b999ccc;
+		}
+		
+		.box-cadastrar{
+			position: relative;
+			float: left;
+			display: none;
+		}
+		.box-cadastrar input[type="password"]{
+			width: 295px;
+			height:48px;
+			border: 1px solid #fff;
+			background: transparent;
+			margin-top: 5px;
+			color: #fff;
+			padding-left: 5px;
+
+		}
+		.box-cadastrar input[type="email"]{
+			width: 295px;
+			height:48px;
+			border: 1px solid #fff;
+			background: transparent;
+			margin-top: 5px;
+			color: #fff;
+			padding-left: 5px;
+
+		}
+		.box-cadastrar input[type="text"]{
+			width: 295px;
+			height:48px;
+			border: 1px solid #fff;
+			background: transparent;
+			margin-top: 5px;
+			color: #fff;
+			padding-left: 5px;
+
+		}
+		
+		/* Botão cadastrar */
+		.box-cadastrar	button{
+			width: 303px;
+			height:48px;
+			border: 1px solid #14f5fb;
+			background: #082e2f;
+			margin-top: 5px;
+			cursor: pointer;
+		}
+
+		/* Div alerta*/
+		.alert {
+			padding: 20px;
+			background-color: #f44336;
+			color: white;		    
+			width: 267px;		    
+			height: 20px;		    	    
+			text-align: center;		    		    
+		}
